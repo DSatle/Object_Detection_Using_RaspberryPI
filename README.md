@@ -38,6 +38,7 @@ sudo apt-get upgrade
 <details>
   <summary>3.Setting up the environment</summary>
 Once this is done we will proceed towards setting up the virtual environment, this holds the tensorflow lite dependencies and prevents the project to intervene the other projects.
+  
 ```
 sudo pip3 install virtualenv
 ```
