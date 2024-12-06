@@ -39,11 +39,29 @@ Once this is done we will proceed towards setting up the python environment and
 
 <details>
   <summary>4.Downloading the model and installing the dependencies.</summary>
+  Once the model dependencies are installed, we need to download the model, the model which is used here is coco_ssd_mobilenet_v1_1.0_quant_2018_06_29,
 
-  - Feature 1: Explanation of feature 1
-  - Feature 2: Explanation of feature 2
-  - Feature 3: Explanation of feature 3
-
+  The coco_ssd_mobilenet_v1_1.0_quant_2018_06_29 is a pre-trained object detection model from TensorFlow Lite that is optimized for mobile and embedded devices.
+  
+ # Model Architecture:
+  - Based on SSD (Single Shot MultiBox Detector) for object detection.
+  - Uses MobileNetV1 as the backbone network for feature extraction, which is lightweight and efficient.
+ # Data Set:
+  - Trained on the COCO (Common Objects in Context) dataset, which contains 80 classes of common objects such as people, animals, and everyday items.
+ # Data Set: 
+  - Post-training quantization is applied to reduce the model size and improve inference speed without significant loss of accuracy
+  - This makes it suitable for deployment on devices with limited computational resources, like microcontrollers and mobile devices.
+# Model Input and Output:
+Input:
+ - A single image, typically resized to 300x300 pixels.
+ - The input image should be normalized (e.g., pixel values between 0 and 1).
+Output: 
+  A list of detected objects, including:
+   - Bounding box coordinates (normalized values).
+   - Class index (integer corresponding to the detected object category).
+   - Detection confidence score (between 0 and 1).
+# Size details
+   - Small model size (~4 MB) due to quantization, making it efficient to load and run on constrained devices.
 </details>
 
 <details>
