@@ -67,9 +67,6 @@ Output:
 <details>
   <summary>5.Implementation and result observation.</summary>
 
-  - Feature 1: Explanation of feature 1
-  - Feature 2: Explanation of feature 2
-  - Feature 3: Explanation of feature 3
 
 </details>
 
