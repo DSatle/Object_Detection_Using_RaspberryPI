@@ -83,6 +83,9 @@ To get the model on the device type the below command
 ```
 wget storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
 ```
+```
+unzip coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip <name_of_my_model>
+```
   The coco_ssd_mobilenet_v1_1.0_quant_2018_06_29 is a pre-trained object detection model from TensorFlow Lite that is optimized for mobile and embedded devices.
   
  # Model Architecture:
@@ -109,7 +112,11 @@ Output:
 <details>
   <summary>5.Implementation and result observation.</summary>
 
+  Now its time to run the model to excercise the same run the command
 
+  ```
+python3 Python_code_object_detection.py --modeldir=<name_of_model"
+```
 
 https://github.com/user-attachments/assets/d6c40dfb-6051-45e4-8037-5ecf1c49248b
 
