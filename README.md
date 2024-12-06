@@ -49,6 +49,9 @@ After installing this we will make a new environment, to work on our project thi
 ```
 python3 -m venv <new_env_name>-env
 ```
+
+![Screenshot 2024-12-06 153026](https://github.com/user-attachments/assets/df93b119-fe33-4865-8409-4cef28bd83b9)
+
 Activate the environment using 
 ```
 source acitvate <new_env_name>-env/bin/activate
