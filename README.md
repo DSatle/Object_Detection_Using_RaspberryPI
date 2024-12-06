@@ -79,6 +79,10 @@ The same can be downloaded from
 
 <a href="storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip" target="_blank">Model_files</a>
 
+To get the model on the device type the below command
+```
+wget storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
+```
   The coco_ssd_mobilenet_v1_1.0_quant_2018_06_29 is a pre-trained object detection model from TensorFlow Lite that is optimized for mobile and embedded devices.
   
  # Model Architecture:
