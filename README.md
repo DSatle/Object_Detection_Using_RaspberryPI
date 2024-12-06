@@ -61,7 +61,23 @@ Everytime user closes the window, user needs to activate the environment using t
 
 <details>
   <summary>4.Downloading the model and installing the dependencies.</summary>
-  Once the model dependencies are installed, we need to download the model, the model which is used here is coco_ssd_mobilenet_v1_1.0_quant_2018_06_29,
+Now we need to install the dependencies which can be installed by running the shell script in terminal. The shell script is provided in the files section.
+Just run the shell script using the command 
+
+```
+bash get_pi_requirements.sh
+```
+When the script is finished and tensorflow and opencv both are installed on the system and it will occupy around 400MB of space.
+
+Once the model dependencies are installed, we need to download the model, the model which is used here is coco_ssd_mobilenet_v1_1.0_quant_2018_06_29,
+
+The model file and the label file can be downloaded from the repo, it contains the model file and label file.
+
+![Screenshot 2024-12-06 154848](https://github.com/user-attachments/assets/504d89a0-c3dc-43a9-9314-2837d693084d)
+
+The same can be downloaded from 
+
+<a href="storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip" target="_blank">Model_files</a>
 
   The coco_ssd_mobilenet_v1_1.0_quant_2018_06_29 is a pre-trained object detection model from TensorFlow Lite that is optimized for mobile and embedded devices.
   
