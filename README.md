@@ -25,10 +25,12 @@ Select the operating system (OS) you wish to burn onto the SD card. For this pro
 
 Once the OS i.e ISO file is burned to the card, we will establish the hardware connection as discussed in the previous chapter. Once that is done we need to enable the camera settings and test whether the board is able to access the camera or not, for that we will click a picture, the same is demonstrated below.
 Updating the Raspberry PI we need to run the following commands 
+
 ```
 sudo apt-get update
 sudo apt-get upgrade
 ```
+
 ![Screenshot 2024-12-06 152200](https://github.com/user-attachments/assets/1ecd7f59-b54f-4d3e-9c3a-6157ab01ef19)
 
 </details>
@@ -39,7 +41,7 @@ Once this is done we will proceed towards setting up the virtual environment, th
 ```
 sudo pip3 install virtualenv
 ```
-![Screenshot 2024-12-06 153026](https://github.com/user-attachments/assets/5c24b5ed-7b0e-4fc2-b529-51375771b76a)
+
 
 After installing this we will make a new environment, to work on our project this is akin to creating a separate workspace for a new project.
 
