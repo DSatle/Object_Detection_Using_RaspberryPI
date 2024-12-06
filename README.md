@@ -3,19 +3,17 @@ The Repository describes the implementation of real time object detection on Ras
 The project is divided in the following chapters,
 <details>
   <summary>1. Prerequisites needed to implement the project</summary>
+For this project, a Raspberry Pi board, an external monitor, a keyboard, and a mouse are required to interact with the board. Alternatively, the board can be accessed by connecting it directly to a laptop, but the method for accessing the board differs in this case. We will discuss that approach in another repository.
 
-  - Feature 1: Explanation of feature 1
-  - Feature 2: Explanation of feature 2
-  - Feature 3: Explanation of feature 3
+The Raspberry Pi board used in this project is the XXXXXXXXXXXX version. To connect the monitor, use an HDMI cable, and similarly, USB ports can be used to connect other peripherals such as the mouse, keyboard, and camera. Refer to the image provided to ensure the hardware connections are set up correctly.
 
 </details>
 
 <details>
   <summary>2.Setting up the board.</summary>
 
-  - Feature 1: Explanation of feature 1
-  - Feature 2: Explanation of feature 2
-  - Feature 3: Explanation of feature 3
+  1. Raspbery Pi Image <a href="https://www.raspberrypi.com/software/operating-systems/" target="_blank">Download here</a>
+
 
 </details>
 
