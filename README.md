@@ -19,16 +19,21 @@ The Raspberry Pi board used in this project is the XXXXXXXXXXXX version. To conn
 
 Select the operating system (OS) you wish to burn onto the SD card. For this project, I have used Raspberry Pi OS (64-bit), which is highly versatile and suitable for most applications. Please note that burning the OS onto the SD card will erase all existing data on it, so ensure you back up any important files beforehand.
 
-Once the OS is successfully written, the SD card will be ready for use with the Raspberry Pi board. Proceed by establishing the necessary hardware connections as outlined in the previous section. With the board set up and all peripherals connected, the system is fully configured and prepared for the next phase—implementing the project.
+![image](https://github.com/user-attachments/assets/4e7e79fe-0d6c-4753-9222-7aed4edb21c9)
 
+Once the OS i.e ISO file is burned to the card, we will establish the hardware connection as discussed in the previous chapter. Once that is done we need to enable the camera settings and test whether the board is able to access the camera or not, for that we will click a picture, the same is demonstrated below.
+
+
+
+
+
+
+After this we will install the Python and other required libraries, used in the project.
 </details>
 
 <details>
   <summary>3.Setting up the environment</summary>
-
-  - Feature 1: Explanation of feature 1
-  - Feature 2: Explanation of feature 2
-  - Feature 3: Explanation of feature 3
+Once this is done we will proceed towards setting up the python environment and 
 
 </details>
 
