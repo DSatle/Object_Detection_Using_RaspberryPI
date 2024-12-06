@@ -13,7 +13,13 @@ The Raspberry Pi board used in this project is the XXXXXXXXXXXX version. To conn
   <summary>2.Setting up the board.</summary>
 
   1. Raspbery Pi Image <a href="https://www.raspberrypi.com/software/operating-systems/" target="_blank">Download here</a>
+  Once the imager is download, user need to have an SD card over which the ISO file i.e image file needs to be burned.
 
+![image](https://github.com/user-attachments/assets/ecc76540-a165-4dc6-a6d6-9949f387b970)
+
+Select the operating system (OS) you wish to burn onto the SD card. For this project, I have used Raspberry Pi OS (64-bit), which is highly versatile and suitable for most applications. Please note that burning the OS onto the SD card will erase all existing data on it, so ensure you back up any important files beforehand.
+
+Once the OS is successfully written, the SD card will be ready for use with the Raspberry Pi board. Proceed by establishing the necessary hardware connections as outlined in the previous section. With the board set up and all peripherals connected, the system is fully configured and prepared for the next phase—implementing the project.
 
 </details>
 
