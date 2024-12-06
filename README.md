@@ -4,8 +4,10 @@ The project is divided in the following chapters,
 <details>
   <summary>1. Prerequisites needed to implement the project</summary>
 For this project, a Raspberry Pi board, an external monitor, a keyboard, and a mouse are required to interact with the board. Alternatively, the board can be accessed by connecting it directly to a laptop, but the method for accessing the board differs in this case. We will discuss that approach in another repository.
+  
+![2024-12-06-15-08-47-192 1](https://github.com/user-attachments/assets/44fd84db-a7b4-4333-82db-d2d264a98fcc)
 
-The Raspberry Pi board used in this project is the XXXXXXXXXXXX version. To connect the monitor, use an HDMI cable, and similarly, USB ports can be used to connect other peripherals such as the mouse, keyboard, and camera. Refer to the image provided to ensure the hardware connections are set up correctly.
+The Raspberry Pi board used in this project is the Model 3 B version. To connect the monitor, use an HDMI cable, and similarly, USB ports can be used to connect other peripherals such as the mouse, keyboard, and camera. Refer to the image provided to ensure the hardware connections are set up correctly.
 
 </details>
 
